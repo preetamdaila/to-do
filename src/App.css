@@ -1,0 +1,55 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+:root {
+    padding: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
+    --width: 700px;
+}
+
+.flex-container {
+    display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+}
+
+.button {
+    cursor: pointer;
+}
+
+.add-item-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.text-box {
+    margin: 0px;
+    width: var(--width);
+    height: 4rem;
+    resize: none;
+    font-size: 2rem;
+    border-radius: .5rem;
+    border: 2px solid #77aa77;
+    color: #77aa77;
+}
+
+.add-button {
+    height: 4rem;
+    font-size: 3rem;
+    color: white;
+    background-color: #77aa77;
+    text-align: center;
+    border-radius: .5rem;
+    padding: 0 1rem;
+    margin: .5rem 0;
+}
+.card-container {
+    margin: 20px auto;
+    flex-direction: column;
+    align-items: center;
+}

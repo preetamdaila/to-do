@@ -1,0 +1,22 @@
+.card {
+    color: white;
+    background: #77aa77;
+    width: var(--width);
+    padding: 20px;
+    border-radius: .5rem;
+    margin: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-text {
+    font-size: 2rem;
+}
+
+.card-text.striked {
+    text-decoration: line-through;
+}
+
+.delete-icon {
+    font-size: 3rem;
+}
